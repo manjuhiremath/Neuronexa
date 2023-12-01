@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Neuronexa/static/css/main.42300d1c.css",
+    "main.js": "/Neuronexa/static/js/main.427c25fc.js",
+    "static/media/home-banner-image.png": "/Neuronexa/static/media/home-banner-image.a41849b23e5c36d66717.png",
+    "static/media/about-background-image.png": "/Neuronexa/static/media/about-background-image.d0e45280dd69dec26ee6.png",
+    "static/media/home-banner-background.png": "/Neuronexa/static/media/home-banner-background.585600da7ff85661555e.png",
+    "static/media/Logo.svg": "/Neuronexa/static/media/Logo.56ad59d23ceff242946a01628e79e275.svg",
+    "index.html": "/Neuronexa/index.html",
+    "main.42300d1c.css.map": "/Neuronexa/static/css/main.42300d1c.css.map",
+    "main.427c25fc.js.map": "/Neuronexa/static/js/main.427c25fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42300d1c.css",
+    "static/js/main.427c25fc.js"
+  ]
+}
