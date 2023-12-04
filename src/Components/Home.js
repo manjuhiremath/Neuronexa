@@ -14,12 +14,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-
-          "Building websites that speak your brand"
+          Building websites that speak your brand
           </h1>
           <p className="primary-text">
-            
-          "Empowering businesses with innovative web solutions, where every line of code tells a story of success."
+          Empowering businesses with innovative web solutions
           </p>
           <button className="secondary-button">
             Click Here <FiArrowRight />{" "}
