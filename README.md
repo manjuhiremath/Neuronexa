@@ -21,7 +21,8 @@ class Calculator:
             return a + b
         else:
             return a
-						
+
+      
 if __name__ == "__main__":
     animal = Animal("Generic Animal")
     print(f"Animal name: {animal.get_name()}")
@@ -33,6 +34,8 @@ if __name__ == "__main__":
     r2 = cal.add(1, 2)
     r3 = cal.add(1, 2, 3)
     print(f"Result: {r1}, Result2: {r2}, Result3: {r3}")
+
+
 5a-------------------------------------------------------------------
 
 import numpy as np
