@@ -34,8 +34,57 @@ if __name__ == "__main__":
     r2 = cal.add(1, 2)
     r3 = cal.add(1, 2, 3)
     print(f"Result: {r1}, Result2: {r2}, Result3: {r3}")
-
 ```
+5a ----------------------
+
+```ruby
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Array manipulation
+arr1 = np.array([[1, 2, 3], [4, 5, 6]])
+arr2 = np.array([[7, 8, 9], [10, 11, 12]])
+
+# Concatenation
+concatenated_arr = np.concatenate((arr1, arr2))
+
+# Reshaping
+reshaped_arr = np.reshape(concatenated_arr, (3, 4))
+
+print("Array Manipulation:")
+print("Original Arrays:")
+print(arr1)
+print(arr2)
+print("Concatenated Array:")
+print(concatenated_arr)
+print("Reshaped Array:")
+print(reshaped_arr)
+
+# Sorting
+sorted_arr = np.sort(reshaped_arr, axis=None)
+
+print("\nSorting:")
+print("Sorted Array:")
+print(sorted_arr)
+
+# Horizontal splitting
+horizontal_split = np.split(sorted_arr, 3, axis=1)
+
+print("\nHorizontal Splitting:")
+print("Split Arrays (along columns):")
+for i, arr in enumerate(horizontal_split):
+    print(f"Array {i + 1}: {arr}")
+
+# Vertical splitting
+vertical_split = np.split(sorted_arr, 3, axis=0)
+
+print("\nVertical Splitting:")
+print("Split Arrays (along rows):")
+for i, arr in enumerate(vertical_split):
+    print(f"Array {i + 1}: {arr}")
+```
+
 5b broadcasting------------------------
 ```ruby
 import numpy as np
