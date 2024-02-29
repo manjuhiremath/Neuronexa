@@ -36,7 +36,7 @@ if __name__ == "__main__":
     print(f"Result: {r1}, Result2: {r2}, Result3: {r3}")
 
 ```
-5a-------------------------------------------------------------------
+5b broadcasting------------------------
 ```ruby
 import numpy as np
 
