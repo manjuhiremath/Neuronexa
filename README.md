@@ -41,73 +41,39 @@ if __name__ == "__main__":
 import numpy as np
 
 print("Arrays of same size\n")
-
 a = np.array([0, 1, 2])
-
 b = np.array([5, 5, 5])
-
 print(a + b)
-
 print("...")
-
 print("Add scalar 8 to an array")
-
 print(a + 8)
-
 print("...")
-
 print("Add 20 to 10 Array")
-
 m = np.ones((3, 3))
-
 print(m)
-
 print(".....")
-
 print("Broadcasting of both arrays\n")
-
 a = np.arange(3)
-
 b = np.arange(3)[:, np.newaxis]
-
 print(a)
-
 print(b)
-
 print(a + b)
-
 print("......")
-
 print("Right side padding")
-
 print(a[:, np.newaxis].shape)
-
 print(m + a[:, np.newaxis])
-
 print("......")
-
 print("Computes log(exp(a)+exp(b))\n")
-
 print(np.logaddexp(m, a[:, np.newaxis]))
-
 print("........")
-
 print("Centering\n")
-
 x = np.random.random((10, 3))
-
 print(x)
-
 xmean = x.mean(axis=0)
-
 print(xmean)
-
-xcentered = x - xmea
-
+xcentered = x - xmean
 print(xcentered)
-
 print(xcentered.mean(axis=0))
-
 print(".....")
 ```
 5b------------------------------------------------
