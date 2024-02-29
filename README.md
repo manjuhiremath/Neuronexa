@@ -1,5 +1,5 @@
 /3333333333333333333333333333333333333333333333333 
-
+```ruby
 class Animal:
     def __init__(self, name):
         self._name = name
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     r3 = cal.add(1, 2, 3)
     print(f"Result: {r1}, Result2: {r2}, Result3: {r3}")
 
-
+```
 5a-------------------------------------------------------------------
 
 import numpy as np
@@ -125,5 +125,16 @@ plt.imshow(z, origin="lower", extent=[2, 10, 2, 10], cmap='viridis')
 
 plt.colorbar()
 
+plt.show()
+
+
+# line plot
+from matplotlib import pyplot as plt
+weekdays=[1,2,3,4,5]
+subject_attendance=[65,78,89,56,86]
+plt.plot(weekdays,subject_attendance)
+plt.title('Attendance')
+plt.xlabel('Weekday')
+plt.ylabel('No. of students present')
 plt.show()
 
