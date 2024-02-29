@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 ```
 5a-------------------------------------------------------------------
-
+```ruby
 import numpy as np
 
 print("Arrays of same size\n")
@@ -109,8 +109,9 @@ print(xcentered)
 print(xcentered.mean(axis=0))
 
 print(".....")
-
+```
 5b------------------------------------------------
+```ruby
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -126,7 +127,10 @@ plt.imshow(z, origin="lower", extent=[2, 10, 2, 10], cmap='viridis')
 plt.colorbar()
 
 plt.show()
+```
 
+6----------------------------------------------------------
+```ruby
 
 # line plot
 from matplotlib import pyplot as plt
@@ -137,4 +141,44 @@ plt.title('Attendance')
 plt.xlabel('Weekday')
 plt.ylabel('No. of students present')
 plt.show()
+
+# Bargraph
+from matplotlib import pyplot as plt
+plt.bar([3,6,9,12],[100,150,200,180],label='Grocery Sales',color='g')
+plt.xlabel('month')
+plt.ylabel('sales in crores')
+plt.title('Sales')
+plt.show()
+
+# histogram
+from matplotlib import pyplot as plt
+Customer_waittime=[30,32.5,35,40,14,22,38,45,43,36,49,29.2,33]
+inter=[0,5,10,15,20,25,30,35,40,45,50,55]
+plt.hist(Customer_waittime,inter,histtype='bar',rwidth=0.8)
+plt.xlabel('time in mins')
+plt.ylabel('no. of customers')
+plt.title('Histogram')
+plt.show()
+
+# Scatter plot
+from matplotlib import pyplot as plt
+Net_Profit=[10,18,24,24,29,37,45,56]
+Sales=[100,200,250,300,380,450,500,600]
+plt.scatter(Net_Profit,Sales,label='correlation',color='k')
+plt.title('Scatter Plot')
+plt.legend()
+plt.xlabel('Profit')
+plt.ylabel('Sales')
+plt.show()
+
+# Boxplot
+import matplotlib.pyplot as plt
+x=[[10,20,30,40,50,60],[30,20,40,45,50,70],[-30,10,20,30,40,50],[10,20,30,40,50,90]]
+plt.boxplot(x,labels=["Aditi","Amar","Bhanu","Surya"],patch_artist="True",showmeans="True",meanline="True")
+plt.title("Marks Stats")
+plt.xlabel("Student Names")
+plt.ylabel("Marks")
+plt.show()
+
+```
 
