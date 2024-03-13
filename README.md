@@ -167,7 +167,7 @@ plt.xlabel("Student Names")
 plt.ylabel("Marks")
 plt.show()
 ```
-##7 Program
+7 
 ```ruby
 import numpy as np
 
@@ -188,7 +188,7 @@ print(arr.itemsize)
 print('Array dimension:')
 print(arr.ndim)
 ```
-# 8 
+8 
 ```ruby
 import numpy as np
 import matplotlib.pyplot as plt
@@ -221,7 +221,7 @@ if __name__ == "__main__":
     main()
 
 ```
-#9
+9
 ```ruby
 import pandas as pd
 import numpy as np
@@ -277,7 +277,7 @@ plt.legend()
 plt.show()
 
 ```
-#10
+10
 ```ruby
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -306,6 +306,7 @@ df['Close'].plot()
 df.resample('M', on='Date').mean()['Close'].plot(kind='bar')
 plt.show()
 ```
+11
 ```ruby
 from numpy import random 
 import seaborn as sns 
