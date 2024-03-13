@@ -1,4 +1,4 @@
-/3333333333333333333333333333333333333333333333333 
+# 3
 ```ruby
 class Animal:
     def __init__(self, name):
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     r3 = cal.add(1, 2, 3)
     print(f"Result: {r1}, Result2: {r2}, Result3: {r3}")
 ```
-5a ----------------------
+# 5a
 ```ruby
 import numpy as np
 import matplotlib.pyplot as plt
@@ -71,7 +71,7 @@ print("Split Arrays (along rows):")
 for i, arr in enumerate(vertical_split):
     print(f"Array {i + 1}: {arr}")
 ```
-5b broadcasting------------------------
+# 5b broadcasting------------------------
 ```ruby
 import numpy as np
 print("Arrays of same size\n")
@@ -110,7 +110,7 @@ print(xcentered)
 print(xcentered.mean(axis=0))
 print(".....")
 ```
-5b------------------------------------------------
+# 5b------------------------------------------------
 ```ruby
 import numpy as np
 import matplotlib.pyplot as plt
@@ -121,7 +121,7 @@ plt.imshow(z, origin="lower", extent=[2, 10, 2, 10], cmap='viridis')
 plt.colorbar()
 plt.show()
 ```
-6----------------------------------------------------------
+# 6
 ```ruby
 # line plot
 from matplotlib import pyplot as plt
@@ -167,7 +167,7 @@ plt.xlabel("Student Names")
 plt.ylabel("Marks")
 plt.show()
 ```
-7 
+# 7 
 ```ruby
 import numpy as np
 
@@ -188,7 +188,7 @@ print(arr.itemsize)
 print('Array dimension:')
 print(arr.ndim)
 ```
-8 
+# 8 
 ```ruby
 import numpy as np
 import matplotlib.pyplot as plt
@@ -221,7 +221,7 @@ if __name__ == "__main__":
     main()
 
 ```
-9
+# 9
 ```ruby
 import pandas as pd
 import numpy as np
@@ -277,7 +277,7 @@ plt.legend()
 plt.show()
 
 ```
-10
+# 10
 ```ruby
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -306,7 +306,7 @@ df['Close'].plot()
 df.resample('M', on='Date').mean()['Close'].plot(kind='bar')
 plt.show()
 ```
-11
+# 11
 ```ruby
 from numpy import random 
 import seaborn as sns 
